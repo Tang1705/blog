@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/author/tang/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 21 May 2022 16:38:12 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 May 2022 17:47:59 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -111,12 +111,12 @@
 
 
 
-<pre class="wp-block-code"><code>import torch
+<pre class="wp-block-code has-typology-txt-color has-text-color has-background" style="background-color:#f0f0f0"><code lang="python" class="language-python line-numbers">import torch
 import torchvision
 import torch.nn as nn
 
 model = # instance of your model
-model.load_state_dict(torch.load("your model.pth")&#91;"model_state_dict"])
+model.load_state_dict(torch.load("your model.pth")["model_state_dict"])
 
 # Switch the model to eval model
 model.eval()
