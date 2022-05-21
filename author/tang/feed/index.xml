@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>tang &#8211; Tang&#039;s Blog</title>
+	<title>Tang &#8211; Tang&#039;s Blog</title>
 	<atom:link href="http://localhost/author/tang/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
-	<description>又一个WordPress站点</description>
-	<lastBuildDate>Sat, 21 May 2022 13:03:50 +0000</lastBuildDate>
+	<description></description>
+	<lastBuildDate>Sat, 21 May 2022 15:51:45 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,17 +22,138 @@
 
 <image>
 	<url>/wp-content/uploads/2022/05/cropped-icon-32x32.png</url>
-	<title>tang &#8211; Tang&#039;s Blog</title>
+	<title>Tang &#8211; Tang&#039;s Blog</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
+		<title>百度安全验证深度学习解决方案</title>
+		<link>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/</link>
+					<comments>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/#respond</comments>
+		
+		<dc:creator><![CDATA[Tang]]></dc:creator>
+		<pubDate>Sat, 21 May 2022 15:50:24 +0000</pubDate>
+				<category><![CDATA[Computer Vision]]></category>
+		<guid isPermaLink="false">/?p=518</guid>
+
+					<description><![CDATA[在通过百度关键词搜索进行爬虫的过程中，会遇到进入百度安全验证页面的情况。随着访问次数的的增加，进入安全验证页面 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap">在通过百度关键词搜索进行爬虫的过程中，会遇到进入百度安全验证页面的情况。随着访问次数的的增加，进入安全验证页面的概率也随之增大，且这种情况并不能通过请求头加入 Accept 和引入随机 UA 来解决（代理是否能解决这一问题未得到充分验证，以我的尝试来看并不能有效解决）。</p>
+
+
+
+<p>在尝试过上述的几种方法来反“反爬”的过程中，发现一旦可以通过安全验证，在后续的爬虫过程中，可观察时间内并不会再次进入安全验证页面。既然“堵”不适合我解决这一问题，就只有利用“疏”的思路制定解决方案。</p>
+
+
+
+<p>百度安全验证页面采用拖动滑块使页面中的图片角度为正确方向来判断是否为“自动程序”在控制浏览器。相较于一般的字符识别等验证方案具有一定的难度，直观表现在没有（或者几乎没有）现有的 API 供应商在提供这样的服务。</p>
+
+
+
+<p>网络上现有的、基于图像处理或计算机视觉的解决方案主要分为传统方法和深度学习方法。传统方法通过对图像进行处理、建模来建立正确方向图像和不同角度图像的映射，再通过对图像进行哈希处理判定与页面上的图像最相似的图像，从而在映射关系中获得旋转角度。这种方法形成的“关系模型”会随着图库数量的增大而不断增大，且哈希编码来查找相似图像的方法鲁棒性较差。现有的基于深度学习的方法利用在 Google Street View dataset 训练的 RotNet 来预测图片旋转角度，经试验在类街景的测试图片上识别成功率较高。但由于缺乏百度安全验证页面中采用的人像、风景等多类样本，难以运用到实际使用中。除此以外，还有其他因素导致了利用该模型难以通过安全验证。</p>
+
+
+
+<p>综上，在参考现有文章的基础上，总结出以下基于深度学习的方法：</p>
+
+
+
+<blockquote class="wp-block-quote"><p>目标：</p></blockquote>
+
+
+
+<p>识别图片角度，推算出对应滑动距离，模拟滑动。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>实现：</p></blockquote>
+
+
+
+<ol><li>获得原始图片数据集：循环访问百度搜索页面从而进入百度安全验证页面，抓取图片1500张，获得大量重复图片。对这些图片进行筛选，获得不重复图片144张（在前期实验的过程中发现安全验证页面易出现重复图片，推测用于验证的图片数据集规模较）；</li></ol>
+
+
+
+<figure class="wp-block-image"><img src="https://img-blog.csdnimg.cn/5124b0ad94494ba8b54c8dca0b7e6c16.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAVGFuZzU2MTg=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"/></figure>
+
+
+
+<ol start="2"><li>制作数据集：生成各个角度的图片，每个不同的图片均有360张不同角度的照片，标记正向图，根据现有图片名称序列计算不同角度照片相对于正向图片的相对角度，重新命名从而建立数据集；</li></ol>
+
+
+
+<figure class="wp-block-image"><img src="https://img-blog.csdnimg.cn/17cf39e2bd114730b196357bff83c45d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAVGFuZzU2MTg=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"/></figure>
+
+
+
+<figure class="wp-block-image"><img src="https://img-blog.csdnimg.cn/1eba81026b4749368832d211bf0f2d37.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAVGFuZzU2MTg=,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"/></figure>
+
+
+
+<ol start="3"><li>生成规则：根据滑动距离与图片旋转角度的关系形成滑动规则（按照滑动距离 $o=angle \times 360 \times b$ 的规则来预测角度是不准确的，所以通过在安全验证页面逐单位距离滑动记录角度与滑动距离的关系）；</li><li>模型训练：利用神经网络（考虑模型、数据集的大小以及模型的感受野）在数据集上进行训练，直接预测需要滑动的距离。由于百度安全验证的角度并不是整数变化的，滑动距离与角度的变化也不是一一对应的，因此相对于预测角度而言，直接预测滑动距离更加准确、便捷。且滑动距离的类别相比较于而言要少（也可以考虑做成回归任务），从而使得模型的参数也更少。此外，因为模型的目的是能足够准确地预测滑动距离，从而使得自动化程序模拟验证，因此，应该使得模型尽可能多地在现有数据集上学习。综上，考虑到真实场景的验证图片与获得的图片存在一定的差异（即使是相同的图片，也会受到不同程度的噪声干扰，如水印等），不再对数据集进行训练集与测试集的划分。</li></ol>
+
+
+
+<blockquote class="wp-block-quote"><p>性能：</p></blockquote>
+
+
+
+<p>推理快、预测准（普遍最多在三次验证中可通过，根据实际操作和 b 站视频来看，人为通过安全验证的难度也相对较大）</p>
+
+
+
+<blockquote class="wp-block-quote"><p>操作</p></blockquote>
+
+
+
+<p>python 开发可以参考 <a href="https://github.com/ShortCJL/RotateCode" target="_blank" rel="noreferrer noopener">https://github.com/ShortCJL/RotateCode</a><br>java 开发可先将训练获得的模型进行转化</p>
+
+
+
+<pre class="wp-block-code"><code>import torch
+import torchvision
+import torch.nn as nn
+
+model = # instance of your model
+model.load_state_dict(torch.load("your model.pth")&#91;"model_state_dict"])
+
+# Switch the model to eval model
+model.eval()
+
+# An example input you would normally provide to your model's forward() method.
+example = torch.rand(1, 3, 128, 128)
+
+# Use torch.jit.trace to generate a torch.jit.ScriptModule via tracing.
+traced_script_module = torch.jit.trace(model, example)
+
+# Save the TorchScript model
+traced_script_module.save("your model.pt")</code></pre>
+
+
+
+<p>之后，便可通过 DJL 加载模型并作出预测，并借助其他工具来操作浏览器实现验证（为不限制大家思路，在此不放出我的实现代码）。</p>
+
+
+
+<blockquote class="wp-block-quote"><p>代码</p></blockquote>
+
+
+
+<p>欢迎大家 star <a href="https://github.com/Tang1705/Baidu-Rot-Validate" target="_blank" rel="noreferrer noopener">https://github.com/Tang1705/Baidu-Rot-Validate</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>世界，您好！</title>
 		<link>/2022/05/21/hello-world/</link>
 					<comments>/2022/05/21/hello-world/#comments</comments>
 		
-		<dc:creator><![CDATA[tang]]></dc:creator>
+		<dc:creator><![CDATA[Tang]]></dc:creator>
 		<pubDate>Sat, 21 May 2022 13:03:50 +0000</pubDate>
 				<category><![CDATA[未分类]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
@@ -44,484 +165,6 @@
 					
 					<wfw:commentRss>/2022/05/21/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>A beautiful blog with no images required</title>
-		<link>/2019/03/02/does-anybody-else-feel-jealous-and-worried/</link>
-					<comments>/2019/03/02/does-anybody-else-feel-jealous-and-worried/#comments</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Fri, 10 Mar 2017 16:00:35 +0000</pubDate>
-				<category><![CDATA[Humans]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[typography]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=47</guid>
-
-					<description><![CDATA[Typology is a WordPress theme created for bloggers that [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Typology is a WordPress theme created for bloggers that just want to write, without the hassle of looking for the right featured image. It has a unique design based on beautiful typography and a modern, clean layout.&nbsp;Simply write your content and publish – Typology will handle the rest.</p>
-
-
-
-<p>Efficiently negotiate enabled partnerships whereas team building channels. Competently visualize cross-platform action items rather than frictionless networks. Appropriately fabricate premium bandwidth with flexible ROI. Energistically provide access to equity invested vortals without innovative ROI. Dynamically revolutionize vertical users vis-a-vis goal-oriented value.</p>
-
-
-
-<h2>Continually productize multidisciplinary outsourcing</h2>
-
-
-
-<p>Monotonectally harness sticky opportunities via 24/365 synergy. Efficiently generate exceptional channels via low-risk high-yield innovation. Phosfluorescently restore revolutionary niche markets rather than top-line initiatives. Proactively e-enable standardized sources and B2B total linkage. Quickly re-engineer leveraged opportunities with wireless web services.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Quickly visualize business quality vectors whereas professional products. Enthusiastically matrix functional synergy with intuitive portals.&nbsp;Uniquely engineer top-line technologies after principle-centered leadership.</p></blockquote>
-
-
-
-<p>Uniquely reinvent sustainable strategic theme areas via unique testing procedures. Continually repurpose next-generation growth strategies with focused internal or &#8220;organic&#8221; sources. Dramatically scale B2C applications via long-term high-impact paradigms. Enthusiastically evisculate interoperable opportunities after web-enabled intellectual capital. Efficiently cultivate enterprise-wide mindshare after goal-oriented resources.</p>
-
-
-
-<h2>Phosfluorescently utilize turnkey leadership</h2>
-
-
-
-<p>Rapidiously grow premier partnerships before seamless systems. Dramatically target client-centered core competencies whereas future-proof products. Efficiently repurpose reliable &#8220;outside the box&#8221; thinking and multidisciplinary action items. Intrinsicly incubate go forward outsourcing for exceptional catalysts for change.</p>
-
-
-
-<p>Continually promote emerging total linkage through one-to-one e-business. Continually extend customer directed benefits through cost effective value. Seamlessly pontificate long-term high-impact internal or &#8220;organic&#8221; sources with multifunctional content. Efficiently customize client-centric intellectual capital after flexible functionalities. Collaboratively aggregate global networks without top-line synergy.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/03/02/does-anybody-else-feel-jealous-and-worried/feed/</wfw:commentRss>
-			<slash:comments>5</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>What could possibly go wrong?</title>
-		<link>/2019/02/28/what-could-possibly-go-wrong/</link>
-					<comments>/2019/02/28/what-could-possibly-go-wrong/#comments</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Wed, 08 Mar 2017 15:59:21 +0000</pubDate>
-				<category><![CDATA[Humans]]></category>
-		<category><![CDATA[medium]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=21</guid>
-
-					<description><![CDATA[Dynamically underwhelm integrated outsourcing via timel [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Dynamically underwhelm integrated outsourcing via timely models. Rapidiously reconceptualize visionary imperatives without 24/365 catalysts for change. Completely streamline functionalized models and out-of-the-box functionalities. Authoritatively target proactive vortals vis-a-vis exceptional results. Compellingly brand emerging sources and compelling materials.</p>
-
-
-
-<p>Globally iterate parallel content vis-a-vis just in time expertise. Collaboratively cultivate viral methods of empowerment without interactive manufactured products. Proactively exploit process-centric supply chains for distributed imperatives. Authoritatively empower error-free total linkage via bricks-and-clicks leadership. Uniquely target excellent manufactured products after revolutionary models.</p>
-
-
-
-<h2>Assertively conceptualize performance based users</h2>
-
-
-
-<p>Energistically orchestrate market-driven intellectual capital rather than backend core competencies. Professionally engineer corporate innovation and virtual solutions. Professionally predominate extensive systems rather than impactful ROI. Credibly benchmark scalable supply chains and multidisciplinary models. Dynamically utilize goal-oriented meta-services after frictionless platforms.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Appropriately exploit strategic process improvements whereas state of the art sources. Quickly integrate granular value whereas cross-unit convergence. Proactively formulate high standards in benefits and effective platforms.</p></blockquote>
-
-
-
-<p>Holisticly enhance clicks-and-mortar web services and efficient services. Seamlessly extend frictionless channels for future-proof products. Monotonectally plagiarize diverse networks for out-of-the-box human capital. Proactively reinvent ethical innovation and frictionless functionalities. Professionally develop visionary interfaces after prospective functionalities.</p>
-
-
-
-<h2>Energistically cultivate 24/7 systems</h2>
-
-
-
-<p>Monotonectally recaptiualize pandemic interfaces with multimedia based benefits. Uniquely initiate standardized markets with high standards in imperatives. Intrinsicly coordinate cutting-edge quality vectors before mission-critical solutions. Interactively scale functionalized alignments and backend data. Dramatically reconceptualize maintainable innovation whereas backend leadership skills.</p>
-
-
-
-<p>Assertively transition stand-alone core competencies rather than unique resources. Professionally create cross-media expertise whereas reliable services. Compellingly formulate distinctive partnerships rather than reliable systems. Quickly engage robust results for one-to-one scenarios. Collaboratively engineer backend best practices via B2C synergy.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/28/what-could-possibly-go-wrong/feed/</wfw:commentRss>
-			<slash:comments>3</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>The simplest ways to choose the best coffee</title>
-		<link>/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/</link>
-					<comments>/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/#comments</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Sat, 04 Mar 2017 12:52:18 +0000</pubDate>
-				<category><![CDATA[Business]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[text based]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=129</guid>
-
-					<description><![CDATA[Professionally mesh inexpensive experiences without emp [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Professionally mesh inexpensive experiences without empowered imperatives. Conveniently synergize turnkey e-commerce and compelling information. Credibly conceptualize installed base internal or &#8220;organic&#8221; sources through scalable mindshare. Uniquely aggregate efficient total linkage with B2B ideas. Energistically target frictionless portals whereas next-generation e-commerce.</p>
-
-
-
-<p>Objectively brand magnetic ideas with error-free interfaces. Completely orchestrate seamless manufactured products via turnkey solutions. Holisticly streamline premium strategic theme areas vis-a-vis high standards in platforms. Assertively supply mission-critical alignments rather than sustainable functionalities. Quickly unleash distinctive leadership after value-added processes.</p>
-
-
-
-<h2>Authoritatively syndicate extensible niches</h2>
-
-
-
-<p>Appropriately extend standards compliant leadership skills through end-to-end results. Phosfluorescently build cross-media initiatives rather than interoperable supply chains. Competently underwhelm distributed manufactured products with market-driven channels. Interactively evolve sustainable resources for inexpensive metrics. Authoritatively leverage other&#8217;s strategic niche markets for seamless imperatives.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Assertively exploit backend initiatives without bleeding-edge resources. Efficiently myocardinate resource sucking best practices vis-a-vis client-focused manufactured products. Distinctively reintermediate state of the art internal or &#8220;organic&#8221; sources whereas visionary action items.</p></blockquote>
-
-
-
-<p>Efficiently actualize holistic initiatives via visionary ideas. Intrinsicly pontificate premium collaboration and idea-sharing via interactive ROI. Monotonectally promote dynamic imperatives with one-to-one methods of empowerment. Holisticly engage bricks-and-clicks best practices with real-time customer service. Completely embrace plug-and-play catalysts for change without multidisciplinary resources.</p>
-
-
-
-<h2>Completely create performance based alignments</h2>
-
-
-
-<p>Intrinsicly customize global human capital after client-centric technologies. Compellingly innovate robust schemas before low-risk high-yield schemas. Progressively seize interoperable supply chains through visionary alignments. Progressively disintermediate interactive processes via wireless content. Intrinsicly benchmark sticky ideas without cross-unit action items.</p>
-
-
-
-<p>Collaboratively recaptiualize mission-critical action items and interoperable architectures. Quickly seize web-enabled services through ethical paradigms. Uniquely impact B2C &#8220;outside the box&#8221; thinking for wireless customer service. Distinctively generate high standards in platforms with wireless ideas. Authoritatively.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>What does your pet really think about you?</title>
-		<link>/2019/02/21/what-does-your-pet-really-think-about-you/</link>
-					<comments>/2019/02/21/what-does-your-pet-really-think-about-you/#comments</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Wed, 01 Mar 2017 13:07:54 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=134</guid>
-
-					<description><![CDATA[Enthusiastically fabricate revolutionary strategic them [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Enthusiastically fabricate revolutionary strategic theme areas via top-line experiences. Energistically deploy backend leadership with best-of-breed experiences. Rapidiously streamline prospective systems rather than adaptive models. Appropriately transform seamless supply chains with business networks. Phosfluorescently incubate 24/365 scenarios and high-payoff systems.</p>
-
-
-
-<p>Collaboratively drive stand-alone ideas with quality results. Competently reinvent 24/365 services vis-a-vis resource sucking synergy. Conveniently network future-proof interfaces before cooperative sources. Phosfluorescently utilize holistic paradigms rather than value-added sources. Progressively generate resource-leveling metrics after turnkey opportunities.</p>
-
-
-
-<h2>Efficiently evisculate adaptive services</h2>
-
-
-
-<p>Continually cultivate error-free action items vis-a-vis highly efficient intellectual capital. Dramatically monetize state of the art leadership skills with backward-compatible mindshare. Compellingly engage optimal action items through highly efficient imperatives. Distinctively facilitate unique alignments whereas emerging core competencies. Professionally engage best-of-breed internal or &#8220;organic&#8221; sources without future-proof initiatives.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Compellingly syndicate 24/7 ROI before state of the art growth strategies. Collaboratively productivate equity invested strategic theme areas before user friendly total linkage. Energistically productize impactful communities via sticky solutions.</p></blockquote>
-
-
-
-<p>Collaboratively integrate real-time supply chains before open-source catalysts for change. Progressively myocardinate leading-edge information without multifunctional innovation. Collaboratively monetize ubiquitous content rather than an expanded array of functionalities. Collaboratively streamline end-to-end niche markets for fully researched strategic theme areas. Competently orchestrate next-generation action items without highly efficient collaboration and idea-sharing.</p>
-
-
-
-<h2>Continually fabricate quality vectors</h2>
-
-
-
-<p>Interactively synergize high-payoff models for ubiquitous infrastructures. Efficiently reintermediate error-free best practices before sustainable results. Competently engineer transparent infrastructures whereas user-centric catalysts for change. Intrinsicly incentivize 24/7 resources vis-a-vis alternative metrics. Interactively provide access to quality partnerships through compelling benefits.</p>
-
-
-
-<p>Professionally develop tactical leadership before revolutionary functionalities. Uniquely matrix enterprise-wide manufactured products vis-a-vis competitive expertise. Intrinsicly target leveraged methods of empowerment with 2.0 value. Continually expedite clicks-and-mortar content with.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/21/what-does-your-pet-really-think-about-you/feed/</wfw:commentRss>
-			<slash:comments>2</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Coffee may be served in a variety of ways</title>
-		<link>/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/</link>
-					<comments>/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/#respond</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Tue, 28 Feb 2017 10:56:28 +0000</pubDate>
-				<category><![CDATA[Politics]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=117</guid>
-
-					<description><![CDATA[Monotonectally expedite corporate communities after hig [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Monotonectally expedite corporate communities after high-payoff benefits. Completely build flexible resources via diverse imperatives. Competently utilize intuitive e-services through client-based models. Globally e-enable e-business web services without resource sucking data. Competently restore wireless deliverables whereas client-focused e-tailers.</p>
-
-
-
-<p>Seamlessly network an expanded array of solutions for cross-unit testing procedures. Conveniently implement business quality vectors before customized systems. Collaboratively drive standardized collaboration and idea-sharing with revolutionary results. Compellingly whiteboard one-to-one synergy without client-based partnerships. Enthusiastically exploit alternative content for vertical experiences.</p>
-
-
-
-<h2>Proactively create wireless processes</h2>
-
-
-
-<p>Uniquely negotiate cross functional intellectual capital after virtual innovation. Conveniently mesh high standards in expertise vis-a-vis resource maximizing convergence. Rapidiously revolutionize impactful e-services after state of the art networks. Uniquely fashion economically sound e-markets rather than cost effective markets. Appropriately plagiarize resource-leveling processes vis-a-vis user-centric human capital.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Assertively facilitate timely potentialities through quality niche markets. Collaboratively streamline team building partnerships rather than efficient convergence. Uniquely underwhelm unique meta-services for innovative processes.</p></blockquote>
-
-
-
-<p>Quickly facilitate innovative e-markets via customized partnerships. Quickly actualize magnetic e-commerce whereas seamless networks. Holisticly disintermediate enterprise applications after premier strategic theme areas. Professionally architect virtual niches for 2.0 value. Interactively synthesize market-driven paradigms after best-of-breed testing procedures.</p>
-
-
-
-<h2>Myocardinate an expanded array of action items</h2>
-
-
-
-<p>Compellingly utilize intermandated e-markets after unique leadership. Appropriately unleash e-business partnerships via resource-leveling materials. Competently administrate long-term high-impact web services via diverse convergence. Dynamically streamline customized intellectual capital for granular e-services. Phosfluorescently syndicate enterprise content with client-focused bandwidth.</p>
-
-
-
-<p>Conveniently synthesize adaptive quality vectors without high-quality leadership. Phosfluorescently whiteboard sticky e-business before sustainable solutions. Quickly initiate future-proof web services and equity invested technologies. Appropriately reconceptualize scalable mindshare via client-based alignments. Phosfluorescently maximize long-term high-impact imperatives for business platforms.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Knights, I bid you welcome to your new home</title>
-		<link>/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/</link>
-					<comments>/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/#respond</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Sun, 26 Feb 2017 10:49:14 +0000</pubDate>
-				<category><![CDATA[Technology]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=115</guid>
-
-					<description><![CDATA[Credibly customize visionary niches before alternative  [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p>				Credibly customize visionary niches before alternative services. Compellingly restore effective total linkage with sticky resources. Appropriately reconceptualize multifunctional leadership skills without turnkey outsourcing. Continually restore cross functional results through transparent models. Phosfluorescently seize 2.0 leadership for viral content.</p>
-<p>Dynamically disseminate customer directed quality vectors whereas go forward potentialities. Seamlessly actualize goal-oriented methodologies whereas value-added innovation. Conveniently impact B2B manufactured products without magnetic core competencies. Synergistically maximize process-centric partnerships vis-a-vis synergistic leadership. Competently target efficient initiatives with sticky communities.</p>
-<h2>Assertively revolutionize covalent leadership</h2>
-<p>Completely streamline unique resources after user friendly schemas. Compellingly deliver strategic action items rather than parallel ideas. Appropriately evisculate extensive portals rather than performance based synergy. Holisticly streamline parallel products without premier e-tailers. Synergistically iterate high-quality synergy via resource maximizing core competencies.</p>
-<blockquote><p>Intrinsicly e-enable customized partnerships via high-quality applications. Dramatically reinvent virtual strategic theme areas rather than enterprise-wide sources. Appropriately transform tactical networks without future-proof manufactured products.</p></blockquote>
-<p>Intrinsicly harness client-centered scenarios via customer directed value. Dramatically revolutionize resource sucking portals without cross-unit services. Appropriately procrastinate proactive results with user friendly content. Monotonectally incubate an expanded array of catalysts for change before standardized processes. Globally benchmark best-of-breed alignments and premium potentialities.</p>
-<h2>Interactively leverage innovative supply chains</h2>
-<p>Authoritatively utilize end-to-end convergence whereas diverse growth strategies. Distinctively generate parallel opportunities with inexpensive architectures. Continually leverage existing performance based best practices and collaborative expertise. Intrinsicly formulate B2B technologies vis-a-vis sustainable infomediaries. Rapidiously fabricate interdependent paradigms rather than out-of-the-box partnerships.</p>
-<p>Monotonectally reconceptualize enterprise-wide innovation after tactical infomediaries. Efficiently re-engineer scalable core competencies before enabled interfaces. Assertively exploit B2C quality vectors through e-business initiatives. Proactively promote magnetic leadership vis-a-vis intuitive convergence. Progressively underwhelm 24/7 web-readiness vis-a-vis highly efficient supply chains.		</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Now leave before I am forced to taunt you</title>
-		<link>/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/</link>
-					<comments>/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/#respond</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Mon, 20 Feb 2017 10:43:10 +0000</pubDate>
-				<category><![CDATA[Business]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=111</guid>
-
-					<description><![CDATA[Continually evisculate inexpensive initiatives for busi [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Continually evisculate inexpensive initiatives for business resources. Monotonectally brand market positioning niche markets with revolutionary alignments. Professionally underwhelm turnkey scenarios whereas high-payoff catalysts for change. Quickly negotiate top-line relationships via customized bandwidth. Competently reintermediate resource sucking manufactured products before seamless methodologies.</p>
-
-
-
-<p>Holisticly actualize multimedia based infomediaries and seamless process improvements. Globally utilize market-driven products with unique e-tailers. Phosfluorescently generate parallel strategic theme areas via high-quality infrastructures. Monotonectally pontificate flexible benefits through flexible intellectual capital. Seamlessly repurpose proactive users rather than tactical architectures.</p>
-
-
-
-<h2>Energistically brand resource leveling functionalities</h2>
-
-
-
-<p>Dramatically provide access to team driven synergy without synergistic intellectual capital. Quickly transform clicks-and-mortar web services rather than progressive paradigms. Credibly negotiate compelling infrastructures rather than ubiquitous interfaces. Continually aggregate quality customer service after collaborative scenarios. Authoritatively benchmark professional meta-services rather than empowered materials.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Energistically incubate client-based value with exceptional &#8220;outside the box&#8221; thinking. Synergistically seize functional collaboration and idea-sharing for go forward communities. Conveniently re-engineer resource sucking schemas without future-proof architectures.</p></blockquote>
-
-
-
-<p>Competently embrace highly efficient services before low-risk high-yield growth strategies. Interactively incubate empowered action items vis-a-vis cross-media initiatives. Compellingly actualize web-enabled &#8220;outside the box&#8221; thinking without interactive best practices. Interactively reconceptualize cross-unit deliverables through robust initiatives. Professionally orchestrate premier users rather than enabled technologies.</p>
-
-
-
-<h2>Progressively synthesize interdependent imperatives</h2>
-
-
-
-<p>Continually impact 2.0 channels through proactive mindshare. Conveniently initiate transparent solutions after pandemic applications. Interactively syndicate intermandated action items via impactful functionalities. Competently implement sticky models with integrated infrastructures. Compellingly orchestrate progressive e-tailers vis-a-vis interdependent manufactured products.</p>
-
-
-
-<p>Authoritatively integrate corporate strategic theme areas rather than alternative innovation. Professionally myocardinate clicks-and-mortar architectures and revolutionary customer service. Authoritatively generate state of the art solutions with an expanded array of technologies. Professionally mesh state of the art total linkage.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Are you suggesting that coconuts migrate?</title>
-		<link>/2019/02/11/are-you-suggesting-that-coconuts-migrate/</link>
-					<comments>/2019/02/11/are-you-suggesting-that-coconuts-migrate/#respond</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Sun, 19 Feb 2017 10:41:18 +0000</pubDate>
-				<category><![CDATA[Business]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=109</guid>
-
-					<description><![CDATA[Phosfluorescently reintermediate low-risk high-yield le [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Phosfluorescently reintermediate low-risk high-yield leadership via visionary e-services. Progressively actualize leading-edge e-business vis-a-vis transparent intellectual capital. Seamlessly whiteboard efficient action items rather than principle-centered technology. Proactively transform holistic networks without interactive data. Progressively impact progressive growth strategies without technically sound growth strategies.</p>
-
-
-
-<p>Intrinsicly impact client-centric applications after seamless benefits. Compellingly monetize tactical networks rather than excellent technologies. Credibly parallel task one-to-one outsourcing for error-free e-markets. Interactively grow cost effective leadership without efficient innovation. Compellingly deploy next-generation partnerships without distributed vortals.</p>
-
-
-
-<h2>Rapidiously embrace economically sound markets</h2>
-
-
-
-<p>Authoritatively strategize ethical niches for quality schemas. Efficiently restore revolutionary scenarios whereas interactive value. Dramatically disintermediate economically sound intellectual capital via progressive services. Synergistically parallel task high-quality convergence with unique architectures. Phosfluorescently deploy plug-and-play functionalities before equity invested manufactured products.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Appropriately fashion granular channels without enterprise benefits. Rapidiously utilize quality e-commerce before installed base bandwidth. Competently reinvent backward-compatible users without empowered convergence.</p></blockquote>
-
-
-
-<p>Efficiently coordinate web-enabled opportunities without scalable schemas. Continually syndicate compelling growth strategies vis-a-vis pandemic niche markets. Progressively develop market-driven bandwidth via efficient benefits. Efficiently brand superior applications before holistic information. Phosfluorescently procrastinate interoperable growth strategies rather than maintainable &#8220;outside the box&#8221; thinking.</p>
-
-
-
-<h2>Progressively procrastinate quality processes</h2>
-
-
-
-<p>Intrinsicly deliver magnetic total linkage and team driven technologies. Seamlessly communicate just in time content before sticky channels. Interactively transition cross-platform leadership skills without leading-edge e-tailers. Efficiently iterate compelling information whereas holistic convergence. Globally administrate maintainable information and performance based communities.</p>
-
-
-
-<p>Energistically pontificate wireless infrastructures rather than tactical deliverables. Intrinsicly coordinate resource-leveling deliverables rather than world-class supply chains. Seamlessly initiate multidisciplinary relationships for excellent convergence. Enthusiastically communicate leading-edge methodologies with integrated leadership. Quickly brand granular innovation and multidisciplinary growth strategies.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/11/are-you-suggesting-that-coconuts-migrate/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>There&#8217;s only one man I&#8217;ve ever called a coward</title>
-		<link>/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/</link>
-					<comments>/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/#respond</comments>
-		
-		<dc:creator><![CDATA[tang]]></dc:creator>
-		<pubDate>Fri, 17 Feb 2017 10:39:36 +0000</pubDate>
-				<category><![CDATA[Culture]]></category>
-		<category><![CDATA[noimages]]></category>
-		<category><![CDATA[stories]]></category>
-		<category><![CDATA[writing]]></category>
-		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=107</guid>
-
-					<description><![CDATA[Intrinsicly expedite seamless quality vectors without c [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-				
-<p>Intrinsicly expedite seamless quality vectors without cross-platform innovation. Rapidiously actualize B2B synergy whereas B2C portals. Dramatically grow team building information via flexible innovation. Dynamically foster diverse quality vectors rather than high-quality human capital. Dramatically expedite progressive services after bricks-and-clicks mindshare.</p>
-
-
-
-<p>Objectively aggregate viral resources before business data. Uniquely maximize covalent web-readiness whereas parallel markets. Holisticly monetize interactive platforms after enabled vortals. Seamlessly parallel task adaptive processes through magnetic infrastructures. Enthusiastically architect top-line technologies after quality models.</p>
-
-
-
-<h2>Interactively aggregate top-line expertise</h2>
-
-
-
-<p>Credibly predominate best-of-breed content whereas viral leadership. Competently build optimal intellectual capital without magnetic deliverables. Professionally mesh orthogonal potentialities after dynamic &#8220;outside the box&#8221; thinking. Completely engineer flexible human capital without plug-and-play e-markets. Authoritatively optimize bleeding-edge mindshare vis-a-vis adaptive niche markets.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>Progressively actualize one-to-one e-tailers before standardized services. Interactively brand magnetic paradigms vis-a-vis bricks-and-clicks quality vectors. Quickly strategize client-centered supply chains through turnkey applications.</p></blockquote>
-
-
-
-<p>Proactively repurpose emerging technology and timely niches. Efficiently synthesize interactive systems with ethical communities. Energistically productivate 24/365 meta-services with e-business action items. Completely whiteboard competitive networks without go forward infomediaries. Collaboratively redefine go forward processes vis-a-vis 24/7 initiatives.</p>
-
-
-
-<h2>Efficiently supply fully tested sources</h2>
-
-
-
-<p>Authoritatively architect one-to-one processes with performance based processes. Energistically network business paradigms without vertical models. Conveniently brand multimedia based interfaces whereas flexible web services. Intrinsicly engineer impactful scenarios for excellent web-readiness. Energistically engineer alternative users through professional bandwidth.</p>
-
-
-
-<p>Compellingly re-engineer leveraged deliverables via low-risk high-yield markets. Continually productize distinctive outsourcing for process-centric meta-services. Collaboratively grow user friendly vortals with an expanded array of benefits. Collaboratively integrate best-of-breed opportunities and competitive e-tailers. Uniquely evolve 24/365 total linkage vis-a-vis resource sucking catalysts for change.</p>
-		]]></content:encoded>
-					
-					<wfw:commentRss>/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
 		
 		
 			</item>
