@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《Have you ever tried turning off the TV?》的评论	</title>
+	<atom:link href="http://localhost/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/feed/" rel="self" type="application/rss+xml" />
+	<link>/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/</link>
+	<description>又一个WordPress站点</description>
+	<lastBuildDate>Thu, 19 Jan 2017 10:39:09 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+</channel>
+</rss>

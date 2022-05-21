@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>typography &#8211; Tang&#039;s Blog</title>
+	<atom:link href="http://localhost/tag/typography/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>又一个WordPress站点</description>
+	<lastBuildDate>Fri, 10 Mar 2017 16:00:35 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/05/cropped-icon-32x32.png</url>
+	<title>typography &#8211; Tang&#039;s Blog</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>A beautiful blog with no images required</title>
+		<link>/2019/03/02/does-anybody-else-feel-jealous-and-worried/</link>
+					<comments>/2019/03/02/does-anybody-else-feel-jealous-and-worried/#comments</comments>
+		
+		<dc:creator><![CDATA[tang]]></dc:creator>
+		<pubDate>Fri, 10 Mar 2017 16:00:35 +0000</pubDate>
+				<category><![CDATA[Humans]]></category>
+		<category><![CDATA[noimages]]></category>
+		<category><![CDATA[typography]]></category>
+		<category><![CDATA[writing]]></category>
+		<guid isPermaLink="false">https://demo.mekshq.com/typology/?p=47</guid>
+
+					<description><![CDATA[Typology is a WordPress theme created for bloggers that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+				
+<p>Typology is a WordPress theme created for bloggers that just want to write, without the hassle of looking for the right featured image. It has a unique design based on beautiful typography and a modern, clean layout.&nbsp;Simply write your content and publish – Typology will handle the rest.</p>
+
+
+
+<p>Efficiently negotiate enabled partnerships whereas team building channels. Competently visualize cross-platform action items rather than frictionless networks. Appropriately fabricate premium bandwidth with flexible ROI. Energistically provide access to equity invested vortals without innovative ROI. Dynamically revolutionize vertical users vis-a-vis goal-oriented value.</p>
+
+
+
+<h2>Continually productize multidisciplinary outsourcing</h2>
+
+
+
+<p>Monotonectally harness sticky opportunities via 24/365 synergy. Efficiently generate exceptional channels via low-risk high-yield innovation. Phosfluorescently restore revolutionary niche markets rather than top-line initiatives. Proactively e-enable standardized sources and B2B total linkage. Quickly re-engineer leveraged opportunities with wireless web services.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Quickly visualize business quality vectors whereas professional products. Enthusiastically matrix functional synergy with intuitive portals.&nbsp;Uniquely engineer top-line technologies after principle-centered leadership.</p></blockquote>
+
+
+
+<p>Uniquely reinvent sustainable strategic theme areas via unique testing procedures. Continually repurpose next-generation growth strategies with focused internal or &#8220;organic&#8221; sources. Dramatically scale B2C applications via long-term high-impact paradigms. Enthusiastically evisculate interoperable opportunities after web-enabled intellectual capital. Efficiently cultivate enterprise-wide mindshare after goal-oriented resources.</p>
+
+
+
+<h2>Phosfluorescently utilize turnkey leadership</h2>
+
+
+
+<p>Rapidiously grow premier partnerships before seamless systems. Dramatically target client-centered core competencies whereas future-proof products. Efficiently repurpose reliable &#8220;outside the box&#8221; thinking and multidisciplinary action items. Intrinsicly incubate go forward outsourcing for exceptional catalysts for change.</p>
+
+
+
+<p>Continually promote emerging total linkage through one-to-one e-business. Continually extend customer directed benefits through cost effective value. Seamlessly pontificate long-term high-impact internal or &#8220;organic&#8221; sources with multifunctional content. Efficiently customize client-centric intellectual capital after flexible functionalities. Collaboratively aggregate global networks without top-line synergy.</p>
+		]]></content:encoded>
+					
+					<wfw:commentRss>/2019/03/02/does-anybody-else-feel-jealous-and-worried/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
