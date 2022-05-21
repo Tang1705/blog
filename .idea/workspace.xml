@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="977b9564-36f3-45ba-a3bf-225c4fd53626" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/05/21/hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/21/hello-world/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/tang/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/feed/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author/tang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/computer-vision/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/computer-vision/feed/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/computer-vision/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/computer-vision/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/uncategorized/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/uncategorized/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed/index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="977b9564-36f3-45ba-a3bf-225c4fd53626" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,19 +22,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tq/Desktop/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tq/Desktop/blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -59,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653141846156</updated>
       <workItem from="1653141849462" duration="1108000" />
-      <workItem from="1653150802756" duration="372000" />
+      <workItem from="1653150802756" duration="1550000" />
     </task>
     <servers />
   </component>
