@@ -151,13 +151,13 @@ body{
                             <article class="typology-post typology-layout-b  post-518 post type-post status-publish format-standard hentry category-computer-vision">
 
     <header class="entry-header">
-        <div class="post-date-hidden">41分钟 ago</div>
-        <h2 class="entry-title"><a href="/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/">百度安全验证深度学习解决方案</a></h2>          
+        <div class="post-date-hidden">49分钟 ago</div>
+        <h2 class="entry-title"><a href="/2022/05/21/baidu-rot-validate/">百度安全验证深度学习解决方案</a></h2>          
             <div class="entry-meta">
 <div class="meta-item meta-author">By <span class="vcard author"><span class="fn"><a href="/author/tang/">Tang</a></span></span>
 </div>
 <div class="meta-item meta-rtime">1 Min Read</div>
-<div class="meta-item meta-comments"><a href="/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/#respond">Add Comment</a></div>
+<div class="meta-item meta-comments"><a href="/2022/05/21/baidu-rot-validate/#respond">Add Comment</a></div>
 </div>
                         <div class="post-date">
                             <span class="post-date-day">21</span><span class="post-date-month">5月</span>
@@ -165,7 +165,7 @@ body{
     </header>
 
     <div class="entry-content">
-                            <p>在通过百度关键词搜索进行爬虫的过程中，会遇到进入百度安全验证页面的情况。随着访问次数的的增加，进入安全验证页面的概率也随之增大，且这种情况并不能通过请求头加入 Accept 和引入随机 UA 来解决（代理是否能解决这一问题未得到充分验证，以我的尝试来看并不能有效解决）。 在尝试过上述的几种方法来反“反爬”的过程中，发现一旦可以通过安全验证，在后续的爬虫过程中，可观察时间内并不会再次进入安全验证页面。既然“堵”不适合我解决这一问题，就只有利用“疏”的思路制定解决方案。 百度安全验证页面采用拖动滑块使页面中的图片角度为正确方向来判断是否为“自动程序”在控制浏览器。相较于一般的字符识别等验证方案具有一定的难度，直观表现在没有（或者几乎没有）现有的 API 供应商在提供这样的服务。...</p>
+                            <p>利用神经网络（考虑模型、数据集的大小以及模型的感受野）在数据集上进行训练，直接预测需要滑动的距离。由于百度安全验证的角度并不是整数变化的，滑动距离与角度的变化也不是一一对应的，因此相对于预测角度而言，直接预测滑动距离更加准确、便捷。且滑动距离的类别相比较于而言要少，从而使得模型的参数也更少。此外，因为模型的目的是能足够准确地预测滑动距离，从而使得自动化程序模拟验证，因此，应该使得模型尽可能多地在现有数据集上学习。综上，考虑到真实场景的验证图片与获得的图片存在一定的差异（即使是相同的图片，也会受到不同程度的噪声干扰，如水印等），不再对数据集进行训练集与测试集的划分。</p>
             </div>
     
 </article>                        
@@ -175,7 +175,7 @@ body{
                             <article class="typology-post typology-layout-b  post-1 post type-post status-publish format-standard hentry category-uncategorized">
 
     <header class="entry-header">
-        <div class="post-date-hidden">3小时 ago</div>
+        <div class="post-date-hidden">4小时 ago</div>
         <h2 class="entry-title"><a href="/2022/05/21/hello-world/">世界，您好！</a></h2>          
             <div class="entry-meta">
 <div class="meta-item meta-author">By <span class="vcard author"><span class="fn"><a href="/author/tang/">Tang</a></span></span>
@@ -243,7 +243,7 @@ body{
 
 					
 								<div id="mks_author_widget-1" class="widget clearfix mks_author_widget">
-	<img alt="" src="http://0.gravatar.com/avatar/?s=90&#038;d=mm&#038;r=g" srcset="http://2.gravatar.com/avatar/?s=180&#038;d=mm&#038;r=g 2x" class="avatar avatar-90 photo avatar-default" height="90" width="90" loading="lazy">	
+	<img alt="" src="http://0.gravatar.com/avatar/?s=90&#038;d=mm&#038;r=g" srcset="http://1.gravatar.com/avatar/?s=180&#038;d=mm&#038;r=g 2x" class="avatar avatar-90 photo avatar-default" height="90" width="90" loading="lazy">	
 
 			
 

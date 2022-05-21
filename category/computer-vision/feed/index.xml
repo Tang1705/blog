@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/category/computer-vision/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 21 May 2022 15:51:45 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 21 May 2022 16:38:12 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,15 +29,15 @@
 </image> 
 	<item>
 		<title>百度安全验证深度学习解决方案</title>
-		<link>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/</link>
-					<comments>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/#respond</comments>
+		<link>/2022/05/21/baidu-rot-validate/</link>
+					<comments>/2022/05/21/baidu-rot-validate/#respond</comments>
 		
 		<dc:creator><![CDATA[Tang]]></dc:creator>
 		<pubDate>Sat, 21 May 2022 15:50:24 +0000</pubDate>
 				<category><![CDATA[Computer Vision]]></category>
 		<guid isPermaLink="false">/?p=518</guid>
 
-					<description><![CDATA[在通过百度关键词搜索进行爬虫的过程中，会遇到进入百度安全验证页面的情况。随着访问次数的的增加，进入安全验证页面 [&#8230;]]]></description>
+					<description><![CDATA[利用神经网络（考虑模型、数据集的大小以及模型的感受野）在数据集上进行训练，直接预测需要滑动的距离。由于百度安全验证的角度并不是整数变化的，滑动距离与角度的变化也不是一一对应的，因此相对于预测角度而言，直接预测滑动距离更加准确、便捷。且滑动距离的类别相比较于而言要少，从而使得模型的参数也更少。此外，因为模型的目的是能足够准确地预测滑动距离，从而使得自动化程序模拟验证，因此，应该使得模型尽可能多地在现有数据集上学习。综上，考虑到真实场景的验证图片与获得的图片存在一定的差异（即使是相同的图片，也会受到不同程度的噪声干扰，如水印等），不再对数据集进行训练集与测试集的划分。]]></description>
 										<content:encoded><![CDATA[
 <p class="has-drop-cap">在通过百度关键词搜索进行爬虫的过程中，会遇到进入百度安全验证页面的情况。随着访问次数的的增加，进入安全验证页面的概率也随之增大，且这种情况并不能通过请求头加入 Accept 和引入随机 UA 来解决（代理是否能解决这一问题未得到充分验证，以我的尝试来看并不能有效解决）。</p>
 
@@ -143,7 +143,7 @@ traced_script_module.save("your model.pt")</code></pre>
 <p>欢迎大家 star <a href="https://github.com/Tang1705/Baidu-Rot-Validate" target="_blank" rel="noreferrer noopener">https://github.com/Tang1705/Baidu-Rot-Validate</a>。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/05/21/%e7%99%be%e5%ba%a6%e5%ae%89%e5%85%a8%e9%aa%8c%e8%af%81%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/05/21/baidu-rot-validate/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
