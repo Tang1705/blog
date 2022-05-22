@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/author/tang/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 21 May 2022 17:47:59 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 22 May 2022 10:42:49 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,114 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>基于 MacOS 搭建 WordPress</title>
+		<link>/2022/05/22/macos_wordpress/</link>
+					<comments>/2022/05/22/macos_wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Tang]]></dc:creator>
+		<pubDate>Sun, 22 May 2022 10:29:52 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">/?p=555</guid>
+
+					<description><![CDATA[WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。]]></description>
+										<content:encoded><![CDATA[
+<p>WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。</p>
+
+
+
+<h2>一、搭建本地开发环境</h2>
+
+
+
+<p>Mac 操作系统下，通过 MAMP 搭建本地开发环境，它是由苹果 OSX 系统上集成的 Apache、Macintosh、MySQL 和 PHP 等软件包，可以在本地模拟网络空间，下载链接 <a href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.mamp.info%2Fen%2Fmac%2F">https://www.mamp.info/en/mac/</a> 。</p>
+
+
+
+<figure class="wp-block-image"><img src="https://static001.geekbang.org/infoq/0a/0a49304b533a66a5893e673d766f74f9.jpeg?x-oss-process=image/resize,p_80/auto-orient,1" alt=""/></figure>
+
+
+
+<p>下载完 MAMP 安装包，直接解压打开，双击安装，点击“下一步”，安装 MAMP 之后，打开 MAMP 版本，Pro 版本是需要收费的，选择免费的 MAMP 即可。</p>
+
+
+
+<p>点击“Preferences…”—>”Web Server”—>”Document Root” 重新选择网站重新目录，该目录存放网站程序。</p>
+
+
+
+<h2>二、安装网站程序</h2>
+
+
+
+<p>在 <a rel="noreferrer noopener" href="https://cn.wordpress.org/" target="_blank">WordPress 官网</a>下载 WordPress。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/10.png" alt=""/><figcaption>① 解压 WordPress 到设置的 Document root</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/05.png" alt=""/><figcaption>① Start</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/07.png" alt=""/><figcaption>① phpMyAdmin 或在页面顶部 Menu 的 Tools 中可以找到</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/08.png" alt=""/><figcaption>① 新建</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/09.png" alt=""/><figcaption>① 输入数据库名称<br>② 创建</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/11.png" alt=""/><figcaption>在浏览器中打开 localhost/wordpress 或 localhost:8888<br>① 现在就开始</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/12.png" alt=""/><figcaption>① 输入数据库名称<br>② 输入 root<br>③ 输入 root<br>④ 提交</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/13.png" alt=""/><figcaption>① 运行安装程序</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/14.png" alt=""/><figcaption>① 输入站点标题<br>② 输入用户名<br>③ 输入密码<br>④ 输入您的电子邮件地址<br>⑤ 可选<br>⑥ 安装 WordPress</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/15.png" alt=""/><figcaption>① 登录</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/16.png" alt=""/><figcaption>安装完成</figcaption></figure></div>
+
+
+
+<h2>三、部署到 Github</h2>
+
+
+
+<p>Github Pages 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，我们可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档。因此，想要将搭建的个人站点托管在 Github，就需要将其静态化。</p>
+
+
+
+<p>插件市场搜索 static，下载插件 Simply Static，下载量最高，使用也比较方便，但缺点是不支持文章 url  有中文名，可以在设置-固定链接中进行修改。此外，还可以在设置中选择下载生成的静态文件压缩包或直接将静态文件生成到指定路径。然后，就可以将生成的文件部署到 Github，并通过域名访问。</p>
+
+
+
+<p>Github Page 的创建可参考 <a rel="noreferrer noopener" href="https://blog.csdn.net/Tang_Chuanlin/article/details/83626545" target="_blank">https://blog.csdn.net/Tang_Chuanlin/article/details/83626545</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/05/22/macos_wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>百度安全验证深度学习解决方案</title>
 		<link>/2022/05/21/baidu-rot-validate/</link>
 					<comments>/2022/05/21/baidu-rot-validate/#respond</comments>
