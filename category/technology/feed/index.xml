@@ -12,13 +12,13 @@
 	<atom:link href="http://localhost/category/technology/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sun, 22 May 2022 10:42:49 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 22 May 2022 10:45:31 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.9.3</generator>
+	<generator>https://wordpress.org/?v=6.0</generator>
 
 <image>
 	<url>/wp-content/uploads/2022/05/cropped-icon-32x32.png</url>
@@ -39,7 +39,7 @@
 
 					<description><![CDATA[WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。]]></description>
 										<content:encoded><![CDATA[
-<p>WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。</p>
+<p class="has-drop-cap">WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。</p>
 
 
 
@@ -59,7 +59,7 @@
 
 
 
-<p>点击“Preferences…”—>”Web Server”—>”Document Root” 重新选择网站重新目录，该目录存放网站程序。</p>
+<p>点击“Preferences…”—&gt;”Web Server”—&gt;”Document Root” 重新选择网站重新目录，该目录存放网站程序。</p>
 
 
 
