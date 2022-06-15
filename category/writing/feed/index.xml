@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/category/writing/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 02 Jun 2022 02:39:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jun 2022 11:39:38 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,11 +29,11 @@
 </image> 
 	<item>
 		<title>一封写给过去和未来的信</title>
-		<link>/2022/05/28/page/</link>
-					<comments>/2022/05/28/page/#respond</comments>
+		<link>/2022/05/05/page/</link>
+					<comments>/2022/05/05/page/#respond</comments>
 		
 		<dc:creator><![CDATA[Tang]]></dc:creator>
-		<pubDate>Sat, 28 May 2022 09:05:43 +0000</pubDate>
+		<pubDate>Thu, 05 May 2022 09:05:00 +0000</pubDate>
 				<category><![CDATA[Writing]]></category>
 		<guid isPermaLink="false">/?p=568</guid>
 
@@ -66,7 +66,7 @@
 <p>说来无关现在，但怎能真的无关。于过去而言，现在是过去无比想到达的未来；于未来而言，现在又是无比怀念的过去。站在现在，我无比期待下一个五年。</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/05/28/page/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/05/05/page/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

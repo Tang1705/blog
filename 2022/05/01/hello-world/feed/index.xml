@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	“Tang&#039;s Blog”的评论	</title>
-	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	《世界，您好！》的评论	</title>
+	<atom:link href="http://localhost/2022/05/01/hello-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/2022/05/01/hello-world/</link>
 	<description></description>
 	<lastBuildDate>Wed, 15 Jun 2022 11:40:31 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=6.0</generator>
 	<item>
 		<title>
-		一位WordPress评论者对《世界，您好！》的评论		</title>
+		评论者：一位WordPress评论者		</title>
 		<link>/2022/05/01/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[一位WordPress评论者]]></dc:creator>

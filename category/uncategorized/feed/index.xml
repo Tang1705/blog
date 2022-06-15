@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description></description>
-	<lastBuildDate>Sat, 21 May 2022 13:03:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Jun 2022 11:40:31 +0000</lastBuildDate>
 	<language>zh-CN</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,11 +29,11 @@
 </image> 
 	<item>
 		<title>世界，您好！</title>
-		<link>/2022/05/21/hello-world/</link>
-					<comments>/2022/05/21/hello-world/#comments</comments>
+		<link>/2022/05/01/hello-world/</link>
+					<comments>/2022/05/01/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[Tang]]></dc:creator>
-		<pubDate>Sat, 21 May 2022 13:03:50 +0000</pubDate>
+		<pubDate>Sun, 01 May 2022 13:03:50 +0000</pubDate>
 				<category><![CDATA[未分类]]></category>
 		<guid isPermaLink="false">/?p=1</guid>
 
@@ -42,7 +42,7 @@
 <p>欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2022/05/21/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>/2022/05/01/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
