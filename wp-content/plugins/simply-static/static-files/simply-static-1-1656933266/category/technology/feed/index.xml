@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Technology &#8211; Tang&#039;s Blog</title>
+	<atom:link href="http://localhost/category/technology/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Thu, 02 Jun 2022 04:27:32 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+
+<image>
+	<url>/wp-content/uploads/2022/05/cropped-icon-32x32.png</url>
+	<title>Technology &#8211; Tang&#039;s Blog</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>LaTeX 中表格的宽度控制</title>
+		<link>/2022/06/02/latex_table/</link>
+					<comments>/2022/06/02/latex_table/#respond</comments>
+		
+		<dc:creator><![CDATA[Tang]]></dc:creator>
+		<pubDate>Thu, 02 Jun 2022 02:53:52 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">/?p=588</guid>
+
+					<description><![CDATA[在利用 LaTeX 进行排版时，最令人头疼的一个问题莫过于表格的制作。一方面是表格的格式复杂多变，二是表格内容 [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+在利用 <span class="texhtml" style="font-family: 'CMU Serif', cmr10, LMRoman10-Regular, 'Latin Modern Math', 'Nimbus Roman No9 L', 'Times New Roman', Times, serif;">L<span style="text-transform: uppercase; font-size: 0.75em; vertical-align: 0.25em; margin-left: -0.36em; margin-right: -0.15em; line-height: 1ex;">a</span>T<span style="text-transform: uppercase; vertical-align: -0.25em; margin-left: -0.1667em; margin-right: -0.125em; line-height: 1ex;">e</span>X</span> 进行排版时，最令人头疼的一个问题莫过于表格的制作。一方面是表格的格式复杂多变，二是表格内容分散且内容繁多，都造成排版的难度增加。好在这个问题可以通过 <a href="https://www.tablesgenerator.com/">Tables Generator</a> 这一在线工具来得到缓解。但表格的格式还有一点令人感到棘手，就是<b>宽度</b>。不是内容太少导致表格细而长，就是类目太多导致表格超出了页面。本文旨在将最近排版中学到的三种方法进行总结，并对其优劣及适用场景进行分析。<div style="margin-bottom:2.5em"></div>
+
+
+
+<h2>1. 使用命令 \setlength{\tabcolsep} </h2>
+
+
+
+<pre class="wp-block-code has-typology-txt-color has-text-color has-background language-python line-numbers" style="background-color:#f0f0f0" tabindex="0"><code lang="tex" class="language-tex">\begin{table*}[!htbp]
+\centering
+\caption{Quantitative depth SR results (in MAD) on Middlebury 2005 dataset. The best performance is displayed in bold, and the second best performance is marked in underline.}
+%\renewcommand{\arraystretch}{0.85}
+\setlength{\tabcolsep}{1.mm}{
+\begin{tabular}{c|ccc|ccc|ccc|ccc|ccc|ccc}
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{Art} & \multicolumn{3}{c|}{Books} & \multicolumn{3}{c|}{Dolls} & \multicolumn{3}{c|}{Laundry} & \multicolumn{3}{c|}{Mobius} & \multicolumn{3}{c}{Reindeer} \\
+\cline{2-19}
+ &$\times 4$  &$\times 8$  &  $\times 16$& $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ \\
+ \hline
+ CLMF & 0.76 & 1.44 & 2.87 & 0.28 & 0.51 & 1.02 & 0.34 & 0.60 & 1.01 & 0.50 & 0.80 & 1.67 & 0.29 & 0.51 & 0.97 & 0.51 & 0.84 & 1.55 \\
+ JGF & 0.47 & 0.78 & 1.54 & 0.24 & 0.43 & 0.81 & 0.33 & 0.59 & 1.06 & 0.36 & 0.64 & 1.20 & 0.25 & 0.46 & 0.80 & 0.38 & 0.64 & 1.09\\
+ TGV & 0.65 & 1.17 & 2.30 & 0.27 & 0.42 & 0.82 & 0.33 & 0.70 & 2.20 & 0.55 & 1.22 & 3.37 & 0.29 & 0.49 & 0.90 & 0.49 & 1.03 & 3.05\\
+ CDLLC & 0.53 & 0.76 & 1.41 & 0.19 & 0.46 & 0.75 & 0.31 & 0.53 & 0.79 & 0.30 & 0.48 & 0.96 & 0.27 & 0.46 & 0.79 & 0.43 & 0.55 & 0.98\\
+ PB & 0.79 & 0.93 & 1.98 & 0.16 & 0.43 & 0.79 & 0.53 & 0.83 & 0.99 & 1.13 & 1.89 & 2.87 & 0.17 & 0.47 & 0.82 & 0.56 & 0.97 & 1.89\\
+ EG & 0.48 & 0.71 & \underline{1.35} & 0.15 & 0.36 & 0.70 & 0.27 & 0.49 & 0.74 & 0.28 & 0.45 & 0.92 & 0.23 & 0.42 & 0.75 & 0.36 & 0.51 & 0.95\\\hline
+ SRCNN & 0.63 & 1.21 & 2.34 & 0.25 & 0.52 & 0.97 & 0.29 & 0.58 & 1.03 & 0.40 & 0.87 & 1.74 & 0.25 & 0.43 & 0.87 & 0.35 & 0.75 & 1.47 \\
+ ATGVNet & 0.65 & 0.81 & 1.42 & 0.43 & 0.51 & 0.79 &0.41  & 0.52 & \textbf{0.56} & 0.37 & 0.89 & 0.94 & 0.38 &  0.45& 0.80 & 0.41 & 0.58 &1.01 \\
+ MSG & 0.46 & 0.76 & 1.53 & 0.15 & 0.41 & 0.76 & 0.25 & 0.51 & 0.87 & 0.30 & 0.46 & 1.12 & 0.21 & 0.43 & 0.76 & 0.31 & 0.52 & 0.99\\
+ DGDIE & 0.48 & 1.20 &2.44  & 0.30 & 0.58 & 1.02 & 0.34 & 0.63 & 0.93 & 0.35 & 0.86 & 1.56 & 0.28 & 0.58 & 0.98 & 0.35 & 0.73 &1.29 \\
+ DEIN & 0.40 & 0.64 & \textbf{1.34} & 0.22 & 0.37 & 0.78 & 0.22 & 0.38 & 0.73 & 0.23 & \underline{0.36} & 0.81 & 0.20 & 0.35 & 0.73 & 0.26 & 0.40 & 0.80\\
+ CCFN & 0.43 & 0.72 & 1.50 & 0.17 & 0.36 & 0.69 & 0.25 & 0.46 & 0.75 & 0.24 & 0.41 & \textbf{0.71} & 0.23 & 0.39 & 0.73 & 0.29 & 0.46 & 0.95\\
+ GSRPT & 0.48 & 0.74 & 1.48 & 0.21 & 0.38 & 0.76 & 0.28 & 0.48 & 0.79 & 0.33 & 0.56 & 1.24 & 0.24 & 0.49 &  0.80& 0.31 & 0.61 &1.07 \\
+CTKT & \textbf{0.25} & \textbf{0.53} & 1.44 & \textbf{0.11} & \underline{0.26} & \underline{0.67} & \textbf{0.16} & \underline{0.36} & 0.65 & \textbf{0.16} & \underline{0.36} & \underline{0.76} & \textbf{0.13} & \underline{0.27} & \underline{0.69} & \textbf{0.17} & \underline{0.35} & \underline{0.77}\\
+BridgeNet (Ours)& \underline{0.30} & \underline{0.58} & 1.49 & \underline{0.14} & \textbf{0.24} & \textbf{0.51} &\underline{0.19}  & \textbf{0.34} & \underline{0.64} & \underline{0.17} & \textbf{0.34} & \textbf{0.71} & \underline{0.15} & \textbf{0.26} & \textbf{0.54} & \underline{0.19} & \textbf{0.31} & \textbf{0.70}\\
+ \hline
+\end{tabular}}
+\end{table*}
+</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img width="1024" height="437" src="/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1024x437.png" alt="" class="wp-image-601" srcset="/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1024x437.png 1024w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-300x128.png 300w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-768x328.png 768w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1536x655.png 1536w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-720x307.png 720w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-580x247.png 580w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-320x137.png 320w, /wp-content/uploads/2022/06/截屏2022-06-02-11.08.08.png 1566w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>使用命令 \setlength{\tabcolsep} 控制表格宽度</figcaption></figure>
+
+
+
+<p>这种方式是我一直以来比较常用的方式，通过调整 \tabcolsep 的参数来控制表格整体的宽度，只需将\begin{tabular} 和 \end{tabuler} 包在其中即可。这种方式比较通用，可以用于将过窄的表格调整较宽，或将较宽的表格宽度调窄。但在表格宽度非常宽时容易失效，当表格仍然较宽不满足需求时，而列间间隔已无法改变来使得表格宽度继续变窄。此外，只改变列间距，而不改变字号和行高的做法，也可能会使得表格显得十分拥挤，因而也唱和命令 \renewcommand{\arraystretch} 一同使用。</p>
+
+
+
+<h2>2. 使用包 adjustbox</h2>
+
+
+
+<pre class="wp-block-code has-typology-txt-color has-text-color has-background language-python line-numbers" style="background-color:#f0f0f0" tabindex="0"><code lang="tex" class="language-tex">\begin{table*}[!htbp]
+\centering
+\caption{Quantitative depth SR results (in MAD) on Middlebury 2005 dataset. The best performance is displayed in bold, and the second best performance is marked in underline.}
+\begin{adjustbox}{width=\linewidth}
+\begin{tabular}{c|ccc|ccc|ccc|ccc|ccc|ccc}
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{Art} & \multicolumn{3}{c|}{Books} & \multicolumn{3}{c|}{Dolls} & \multicolumn{3}{c|}{Laundry} & \multicolumn{3}{c|}{Mobius} & \multicolumn{3}{c}{Reindeer} \\
+\cline{2-19}
+ &$\times 4$  &$\times 8$  &  $\times 16$& $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ \\
+ \hline
+ CLMF & 0.76 & 1.44 & 2.87 & 0.28 & 0.51 & 1.02 & 0.34 & 0.60 & 1.01 & 0.50 & 0.80 & 1.67 & 0.29 & 0.51 & 0.97 & 0.51 & 0.84 & 1.55 \\
+ JGF & 0.47 & 0.78 & 1.54 & 0.24 & 0.43 & 0.81 & 0.33 & 0.59 & 1.06 & 0.36 & 0.64 & 1.20 & 0.25 & 0.46 & 0.80 & 0.38 & 0.64 & 1.09\\
+ TGV & 0.65 & 1.17 & 2.30 & 0.27 & 0.42 & 0.82 & 0.33 & 0.70 & 2.20 & 0.55 & 1.22 & 3.37 & 0.29 & 0.49 & 0.90 & 0.49 & 1.03 & 3.05\\
+ CDLLC & 0.53 & 0.76 & 1.41 & 0.19 & 0.46 & 0.75 & 0.31 & 0.53 & 0.79 & 0.30 & 0.48 & 0.96 & 0.27 & 0.46 & 0.79 & 0.43 & 0.55 & 0.98\\
+ PB & 0.79 & 0.93 & 1.98 & 0.16 & 0.43 & 0.79 & 0.53 & 0.83 & 0.99 & 1.13 & 1.89 & 2.87 & 0.17 & 0.47 & 0.82 & 0.56 & 0.97 & 1.89\\
+ EG & 0.48 & 0.71 & \underline{1.35} & 0.15 & 0.36 & 0.70 & 0.27 & 0.49 & 0.74 & 0.28 & 0.45 & 0.92 & 0.23 & 0.42 & 0.75 & 0.36 & 0.51 & 0.95\\\hline
+ SRCNN & 0.63 & 1.21 & 2.34 & 0.25 & 0.52 & 0.97 & 0.29 & 0.58 & 1.03 & 0.40 & 0.87 & 1.74 & 0.25 & 0.43 & 0.87 & 0.35 & 0.75 & 1.47 \\
+ ATGVNet & 0.65 & 0.81 & 1.42 & 0.43 & 0.51 & 0.79 &0.41  & 0.52 & \textbf{0.56} & 0.37 & 0.89 & 0.94 & 0.38 &  0.45& 0.80 & 0.41 & 0.58 &1.01 \\
+ MSG & 0.46 & 0.76 & 1.53 & 0.15 & 0.41 & 0.76 & 0.25 & 0.51 & 0.87 & 0.30 & 0.46 & 1.12 & 0.21 & 0.43 & 0.76 & 0.31 & 0.52 & 0.99\\
+ DGDIE & 0.48 & 1.20 &2.44  & 0.30 & 0.58 & 1.02 & 0.34 & 0.63 & 0.93 & 0.35 & 0.86 & 1.56 & 0.28 & 0.58 & 0.98 & 0.35 & 0.73 &1.29 \\
+ DEIN & 0.40 & 0.64 & \textbf{1.34} & 0.22 & 0.37 & 0.78 & 0.22 & 0.38 & 0.73 & 0.23 & \underline{0.36} & 0.81 & 0.20 & 0.35 & 0.73 & 0.26 & 0.40 & 0.80\\
+ CCFN & 0.43 & 0.72 & 1.50 & 0.17 & 0.36 & 0.69 & 0.25 & 0.46 & 0.75 & 0.24 & 0.41 & \textbf{0.71} & 0.23 & 0.39 & 0.73 & 0.29 & 0.46 & 0.95\\
+ GSRPT & 0.48 & 0.74 & 1.48 & 0.21 & 0.38 & 0.76 & 0.28 & 0.48 & 0.79 & 0.33 & 0.56 & 1.24 & 0.24 & 0.49 &  0.80& 0.31 & 0.61 &1.07 \\
+CTKT & \textbf{0.25} & \textbf{0.53} & 1.44 & \textbf{0.11} & \underline{0.26} & \underline{0.67} & \textbf{0.16} & \underline{0.36} & 0.65 & \textbf{0.16} & \underline{0.36} & \underline{0.76} & \textbf{0.13} & \underline{0.27} & \underline{0.69} & \textbf{0.17} & \underline{0.35} & \underline{0.77}\\
+BridgeNet (Ours)& \underline{0.30} & \underline{0.58} & 1.49 & \underline{0.14} & \textbf{0.24} & \textbf{0.51} &\underline{0.19}  & \textbf{0.34} & \underline{0.64} & \underline{0.17} & \textbf{0.34} & \textbf{0.71} & \underline{0.15} & \textbf{0.26} & \textbf{0.54} & \underline{0.19} & \textbf{0.31} & \textbf{0.70}\\
+ \hline
+\end{tabular}
+\end{adjustbox}
+\end{table*}
+</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="373" src="/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1024x373.png" alt="" class="wp-image-602" srcset="/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1024x373.png 1024w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-300x109.png 300w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-768x280.png 768w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1536x559.png 1536w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-720x262.png 720w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-580x211.png 580w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-320x116.png 320w, /wp-content/uploads/2022/06/截屏2022-06-02-11.18.25.png 1566w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>使用包 adjustbox 控制表格宽度</figcaption></figure>
+
+
+
+这种方式是最近在看一篇论文排版源码时学到的方法，Arxiv 要求上传 <span class="texhtml" style="font-family: 'CMU Serif', cmr10, LMRoman10-Regular, 'Latin Modern Math', 'Nimbus Roman No9 L', 'Times New Roman', Times, serif;">L<span style="text-transform: uppercase; font-size: 0.75em; vertical-align: 0.25em; margin-left: -0.36em; margin-right: -0.15em; line-height: 1ex;">a</span>T<span style="text-transform: uppercase; vertical-align: -0.25em; margin-left: -0.1667em; margin-right: -0.125em; line-height: 1ex;">e</span>X</span> 代码，可以从大家上传的排版文件学到很多。其使用方法是 \begin{adjustbox}{width=\linewidth} &#8230; \end{addustbox}，只需将 tabular 环境的表格内容包在其中即可。与第一种方式不同的是， adjustbox 在表格过长时表现得更好，可以同时调整列宽、行高和字号。但同样，在表格过小时，也会对表格进行放大，占据过多空间。<div style="margin-bottom:2.5em"></div>
+
+
+
+<h2>3. 使用包 tabularx</h2>
+
+
+
+<pre class="wp-block-code has-typology-txt-color has-text-color has-background language-python line-numbers" style="background-color:#f0f0f0" tabindex="0"><code lang="tex" class="language-tex">\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+% 该命令用于控制 p{} 的情况
+\newcolumntype{P}[1]{>{\RaggedRight\hspace{0pt}}p{#1}} % 使用过程中，将p{4cm}换成P{4cm}，小写改成大写即可！
+% 该命令用于控制 X 的情况
+\newcolumntype{Z}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}X} % 使用过程中，将Z 换成 X，即可！
+% 可利用 RaggedLeft Centering替换RaggedRight，实现靠右和居中
+
+\begin{table*}[!htbp]
+\centering
+\caption{Quantitative depth SR results (in MAD) on Middlebury 2005 dataset. The best performance is displayed in bold, and the second best performance is marked in underline.}
+\begin{tabularx}{\linewidth}{p{2.67cm} XXX|XXX|XXX|XXX|XXX|XXX}
+\hline
+\multirow{2}{*}{} & \multicolumn{3}{c|}{Art} & \multicolumn{3}{c|}{Books} & \multicolumn{3}{c|}{Dolls} & \multicolumn{3}{c|}{Laundry} & \multicolumn{3}{c|}{Mobius} & \multicolumn{3}{c}{Reindeer} \\
+\cline{2-19}
+ &$\times 4$  &$\times 8$  &  $\times 16$& $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ & $\times 4$ & $\times 8$ & $\times 16$ \\
+ \hline
+ CLMF & 0.76 & 1.44 & 2.87 & 0.28 & 0.51 & 1.02 & 0.34 & 0.60 & 1.01 & 0.50 & 0.80 & 1.67 & 0.29 & 0.51 & 0.97 & 0.51 & 0.84 & 1.55 \\
+ JGF & 0.47 & 0.78 & 1.54 & 0.24 & 0.43 & 0.81 & 0.33 & 0.59 & 1.06 & 0.36 & 0.64 & 1.20 & 0.25 & 0.46 & 0.80 & 0.38 & 0.64 & 1.09\\
+ TGV & 0.65 & 1.17 & 2.30 & 0.27 & 0.42 & 0.82 & 0.33 & 0.70 & 2.20 & 0.55 & 1.22 & 3.37 & 0.29 & 0.49 & 0.90 & 0.49 & 1.03 & 3.05\\
+ CDLLC & 0.53 & 0.76 & 1.41 & 0.19 & 0.46 & 0.75 & 0.31 & 0.53 & 0.79 & 0.30 & 0.48 & 0.96 & 0.27 & 0.46 & 0.79 & 0.43 & 0.55 & 0.98\\
+ PB & 0.79 & 0.93 & 1.98 & 0.16 & 0.43 & 0.79 & 0.53 & 0.83 & 0.99 & 1.13 & 1.89 & 2.87 & 0.17 & 0.47 & 0.82 & 0.56 & 0.97 & 1.89\\
+ EG & 0.48 & 0.71 & \underline{1.35} & 0.15 & 0.36 & 0.70 & 0.27 & 0.49 & 0.74 & 0.28 & 0.45 & 0.92 & 0.23 & 0.42 & 0.75 & 0.36 & 0.51 & 0.95\\\hline
+ SRCNN & 0.63 & 1.21 & 2.34 & 0.25 & 0.52 & 0.97 & 0.29 & 0.58 & 1.03 & 0.40 & 0.87 & 1.74 & 0.25 & 0.43 & 0.87 & 0.35 & 0.75 & 1.47 \\
+ ATGVNet & 0.65 & 0.81 & 1.42 & 0.43 & 0.51 & 0.79 &0.41  & 0.52 & \textbf{0.56} & 0.37 & 0.89 & 0.94 & 0.38 &  0.45& 0.80 & 0.41 & 0.58 &1.01 \\
+ MSG & 0.46 & 0.76 & 1.53 & 0.15 & 0.41 & 0.76 & 0.25 & 0.51 & 0.87 & 0.30 & 0.46 & 1.12 & 0.21 & 0.43 & 0.76 & 0.31 & 0.52 & 0.99\\
+ DGDIE & 0.48 & 1.20 &2.44  & 0.30 & 0.58 & 1.02 & 0.34 & 0.63 & 0.93 & 0.35 & 0.86 & 1.56 & 0.28 & 0.58 & 0.98 & 0.35 & 0.73 &1.29 \\
+ DEIN & 0.40 & 0.64 & \textbf{1.34} & 0.22 & 0.37 & 0.78 & 0.22 & 0.38 & 0.73 & 0.23 & \underline{0.36} & 0.81 & 0.20 & 0.35 & 0.73 & 0.26 & 0.40 & 0.80\\
+ CCFN & 0.43 & 0.72 & 1.50 & 0.17 & 0.36 & 0.69 & 0.25 & 0.46 & 0.75 & 0.24 & 0.41 & \textbf{0.71} & 0.23 & 0.39 & 0.73 & 0.29 & 0.46 & 0.95\\
+ GSRPT & 0.48 & 0.74 & 1.48 & 0.21 & 0.38 & 0.76 & 0.28 & 0.48 & 0.79 & 0.33 & 0.56 & 1.24 & 0.24 & 0.49 &  0.80& 0.31 & 0.61 &1.07 \\
+CTKT & \textbf{0.25} & \textbf{0.53} & 1.44 & \textbf{0.11} & \underline{0.26} & \underline{0.67} & \textbf{0.16} & \underline{0.36} & 0.65 & \textbf{0.16} & \underline{0.36} & \underline{0.76} & \textbf{0.13} & \underline{0.27} & \underline{0.69} & \textbf{0.17} & \underline{0.35} & \underline{0.77}\\
+BridgeNet (Ours)& \underline{0.30} & \underline{0.58} & 1.49 & \underline{0.14} & \textbf{0.24} & \textbf{0.51} &\underline{0.19}  & \textbf{0.34} & \underline{0.64} & \underline{0.17} & \textbf{0.34} & \textbf{0.71} & \underline{0.15} & \textbf{0.26} & \textbf{0.54} & \underline{0.19} & \textbf{0.31} & \textbf{0.70}\\
+ \hline
+\end{tabularx}
+\end{table*}
+</code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="426" src="/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1024x426.png" alt="" class="wp-image-605" srcset="/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1024x426.png 1024w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-300x125.png 300w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-768x320.png 768w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1536x640.png 1536w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-720x300.png 720w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-580x241.png 580w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-320x133.png 320w, /wp-content/uploads/2022/06/截屏2022-06-02-12.11.06.png 1566w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>使用包 tabularx  控制表格宽度</figcaption></figure>
+
+
+
+<p>包 tabularx 的使用和 adjustbox 相差无几，其作用是可以自动计算列宽，而不会改变行高等，更适用于宽度较窄的表格的格式设置，档表格过宽时，内容会过于拥挤。除此以外，表格内容的居中、靠左、靠右等也比较复杂。</p>
+
+
+
+<p>综上，依据使用经验来看，当表格过窄时，宜使用命令 \setlength{\tabcolsep} 和包 tabularx，而当表格过宽时，宜使用包 adjustbox。 </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/06/02/latex_table/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>基于 MacOS 搭建 WordPress</title>
+		<link>/2022/05/22/macos_wordpress/</link>
+					<comments>/2022/05/22/macos_wordpress/#respond</comments>
+		
+		<dc:creator><![CDATA[Tang]]></dc:creator>
+		<pubDate>Sun, 22 May 2022 10:29:52 +0000</pubDate>
+				<category><![CDATA[Technology]]></category>
+		<guid isPermaLink="false">/?p=555</guid>
+
+					<description><![CDATA[WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。]]></description>
+										<content:encoded><![CDATA[
+<p class="has-drop-cap">WordPress 是一款通过使用 PHP 语言开发的博客平台，开发者可以通过 WordPress 搭建属于自己的个人博客平台，本文基于 Mac 操作系统搭建 WordPress 个人站点，并将静态文件部署到 Github。</p>
+
+
+
+<h2>一、搭建本地开发环境</h2>
+
+
+
+<p>Mac 操作系统下，通过 MAMP 搭建本地开发环境，它是由苹果 OSX 系统上集成的 Apache、Macintosh、MySQL 和 PHP 等软件包，可以在本地模拟网络空间，下载链接 <a href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.mamp.info%2Fen%2Fmac%2F">https://www.mamp.info/en/mac/</a> 。</p>
+
+
+
+<figure class="wp-block-image"><img src="https://static001.geekbang.org/infoq/0a/0a49304b533a66a5893e673d766f74f9.jpeg?x-oss-process=image/resize,p_80/auto-orient,1" alt=""/></figure>
+
+
+
+<p>下载完 MAMP 安装包，直接解压打开，双击安装，点击“下一步”，安装 MAMP 之后，打开 MAMP 版本，Pro 版本是需要收费的，选择免费的 MAMP 即可。</p>
+
+
+
+<p>点击“Preferences…”—&gt;”Web Server”—&gt;”Document Root” 重新选择网站重新目录，该目录存放网站程序。</p>
+
+
+
+<h2>二、安装网站程序</h2>
+
+
+
+<p>在 <a rel="noreferrer noopener" href="https://cn.wordpress.org/" target="_blank">WordPress 官网</a>下载 WordPress。</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/10.png" alt=""/><figcaption>① 解压 WordPress 到设置的 Document root</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/05.png" alt=""/><figcaption>① Start</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/07.png" alt=""/><figcaption>① phpMyAdmin 或在页面顶部 Menu 的 Tools 中可以找到</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/08.png" alt=""/><figcaption>① 新建</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/09.png" alt=""/><figcaption>① 输入数据库名称<br>② 创建</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/11.png" alt=""/><figcaption>在浏览器中打开 localhost/wordpress 或 localhost:8888<br>① 现在就开始</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/12.png" alt=""/><figcaption>① 输入数据库名称<br>② 输入 root<br>③ 输入 root<br>④ 提交</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/13.png" alt=""/><figcaption>① 运行安装程序</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/14.png" alt=""/><figcaption>① 输入站点标题<br>② 输入用户名<br>③ 输入密码<br>④ 输入您的电子邮件地址<br>⑤ 可选<br>⑥ 安装 WordPress</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/15.png" alt=""/><figcaption>① 登录</figcaption></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.cmk.red/assets/experience/1c552356/16.png" alt=""/><figcaption>安装完成</figcaption></figure></div>
+
+
+
+<h2>三、部署到 Github</h2>
+
+
+
+<p>Github Pages 是面向用户、组织和项目开放的公共静态页面搭建托管服务，站点可以被免费托管在 Github 上，我们可以选择使用 Github Pages 默认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档。因此，想要将搭建的个人站点托管在 Github，就需要将其静态化。</p>
+
+
+
+<p>插件市场搜索 static，下载插件 Simply Static，下载量最高，使用也比较方便，但缺点是不支持文章 url  有中文名，可以在设置-固定链接中进行修改。此外，还可以在设置中选择下载生成的静态文件压缩包或直接将静态文件生成到指定路径。然后，就可以将生成的文件部署到 Github，并通过域名访问。</p>
+
+
+
+<p>Github Page 的创建可参考 <a rel="noreferrer noopener" href="https://blog.csdn.net/Tang_Chuanlin/article/details/83626545" target="_blank">https://blog.csdn.net/Tang_Chuanlin/article/details/83626545</a>。</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/05/22/macos_wordpress/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

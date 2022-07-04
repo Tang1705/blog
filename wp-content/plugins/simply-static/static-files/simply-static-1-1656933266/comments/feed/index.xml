@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	“Tang&#039;s Blog”的评论	</title>
+	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Wed, 15 Jun 2022 11:40:31 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0</generator>
+	<item>
+		<title>
+		一位WordPress评论者对《世界，您好！》的评论		</title>
+		<link>/2022/05/01/hello-world/#comment-1</link>
+
+		<dc:creator><![CDATA[一位WordPress评论者]]></dc:creator>
+		<pubDate>Sat, 21 May 2022 13:03:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
+
+					<description><![CDATA[嗨，这是一条评论。
+要开始审核、编辑及删除评论，请访问仪表盘的“评论”页面。
+评论者头像来自&lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;。]]></description>
+			<content:encoded><![CDATA[<p>嗨，这是一条评论。<br />
+要开始审核、编辑及删除评论，请访问仪表盘的“评论”页面。<br />
+评论者头像来自<a href="https://gravatar.com/">Gravatar</a>。</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
