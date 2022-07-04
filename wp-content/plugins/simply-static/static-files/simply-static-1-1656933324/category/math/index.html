@@ -4,13 +4,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<title>Computer Vision &#8211; Tang&#039;s Blog</title>
+		<title>math &#8211; Tang&#039;s Blog</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="Tang&#039;s Blog &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="Tang&#039;s Blog &raquo; 评论Feed" href="/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Tang&#039;s Blog &raquo; Computer Vision分类Feed" href="/category/computer-vision/feed/">
+<link rel="alternate" type="application/rss+xml" title="Tang&#039;s Blog &raquo; math分类Feed" href="/category/math/feed/">
 <script type="text/javascript">
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
 /*! This file is auto-generated */
@@ -60,7 +60,7 @@ img.emoji {
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script type="text/javascript" src="/wp-content/themes/typology-child/prism.js?ver=6.0" id="prismJS-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/18">
+<link rel="alternate" type="application/json" href="/wp-json/wp/v2/categories/22">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 6.0">
@@ -106,7 +106,7 @@ body,a,h1,h2,h3,h4,h5,div,span{text-align:justify}</style>
 	</head>
 	
 
-	<body class="archive category category-computer-vision category-18 wp-embed-responsive typology-v_1_7_3 typology-child">
+	<body class="archive category category-math category-22 wp-embed-responsive typology-v_1_7_3 typology-child">
 
 		
 			<header id="typology-header" class="typology-header">
@@ -140,7 +140,7 @@ body,a,h1,h2,h3,h4,h5,div,span{text-align:justify}</style>
 	<div class="typology-section">
 		    
 								<div class="section-head"><h1 class="section-title h6">
-<span class="typology-archive-title">Category</span>Computer Vision</h1></div>		
+<span class="typology-archive-title">Category</span>math</h1></div>		
 		
 		
 			<div class="section-content section-content-b">
@@ -149,24 +149,24 @@ body,a,h1,h2,h3,h4,h5,div,span{text-align:justify}</style>
 
 					
 						
-                        <article class="typology-post typology-layout-b  post-518 post type-post status-publish format-standard hentry category-computer-vision">
+                        <article class="typology-post typology-layout-b  post-617 post type-post status-publish format-standard hentry category-math">
 
     <header class="entry-header">
-        <div class="post-date-hidden">1月 ago</div>
-        <h2 class="entry-title"><a href="/2022/05/21/baidu-rot-validate/">百度安全验证深度学习解决方案</a></h2>          
+        <div class="post-date-hidden">3分钟 ago</div>
+        <h2 class="entry-title"><a href="/2022/07/04/normal-distribution/">正态分布</a></h2>          
             <div class="entry-meta">
 <div class="meta-item meta-author">By <span class="vcard author"><span class="fn"><a href="/author/tang/">Tang</a></span></span>
 </div>
 <div class="meta-item meta-rtime">1 Min Read</div>
-<div class="meta-item meta-comments"><a href="/2022/05/21/baidu-rot-validate/#respond">Add Comment</a></div>
+<div class="meta-item meta-comments"><a href="/2022/07/04/normal-distribution/#respond">Add Comment</a></div>
 </div>
                         <div class="post-date">
-                            <span class="post-date-day">21</span><span class="post-date-month">5月</span>
+                            <span class="post-date-day">04</span><span class="post-date-month">7月</span>
                     </div>
     </header>
 
     <div class="entry-content">
-                            <p>利用神经网络（考虑模型、数据集的大小以及模型的感受野）在数据集上进行训练，直接预测需要滑动的距离。由于百度安全验证的角度并不是整数变化的，滑动距离与角度的变化也不是一一对应的，因此相对于预测角度而言，直接预测滑动距离更加准确、便捷。且滑动距离的类别相比较于而言要少，从而使得模型的参数也更少。此外，因为模型的目的是能足够准确地预测滑动距离，从而使得自动化程序模拟验证，因此，应该使得模型尽可能多地在现有数据集上学习。综上，考虑到真实场景的验证图片与获得的图片存在一定的差异（即使是相同的图片，也会受到不同程度的噪声干扰，如水印等），不再对数据集进行训练集与测试集的划分。</p>
+                            <p>1、正态分布 如果随机变量$X$的概率密度为$$f(x)=\frac{1}{\sqrt{2\pi\sigma}}e^{-\frac{1}{2\sigma ^2}(x-\mu )^2},-\infty&lt;x&lt;+\infty\tag 1$$ 其中，$\sigma&gt;0,\sigma,\mu$为常数，则称$X$服从参数为$\sigma,\mu$的正态分布，记作$X\sim N(\mu,\sigma^2)$。 特别地，当$\mu=0,\sigma^2=1$时，称$X$服从标准正态分布，即$X \sim N(0,1)$，其概率密度函数和分布函数分别用$\phi(x),\Phi(x)$表示。$$\phi(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}},-\infty&lt;x&lt;+\infty\tag 2$$$$\Phi(x)=\int_{...</p>
             </div>
     
 </article>
