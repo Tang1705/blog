@@ -5,7 +5,449 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="977b9564-36f3-45ba-a3bf-225c4fd53626" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/29/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/29/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/29/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/29/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/30/may-the-force-be-with-you/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/30/may-the-force-be-with-you/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/30/may-the-force-be-with-you/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/30/may-the-force-be-with-you/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/31/the-plans-you-refer-to-will-soon-be-back-in-our-hands/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/31/the-plans-you-refer-to-will-soon-be-back-in-our-hands/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018/12/31/the-plans-you-refer-to-will-soon-be-back-in-our-hands/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2018/12/31/the-plans-you-refer-to-will-soon-be-back-in-our-hands/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/01/she-must-have-hidden-the-plans-in-the-escape-pod/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/01/she-must-have-hidden-the-plans-in-the-escape-pod/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/01/she-must-have-hidden-the-plans-in-the-escape-pod/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/01/she-must-have-hidden-the-plans-in-the-escape-pod/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/02/13/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/02/13/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/02/13/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/02/13/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/04/i-want-to-learn-the-ways-of-the-force/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/04/i-want-to-learn-the-ways-of-the-force/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/04/i-want-to-learn-the-ways-of-the-force/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/04/i-want-to-learn-the-ways-of-the-force/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/06/theres-no-mystical-energy-field-that-controls-my-destiny/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/06/theres-no-mystical-energy-field-that-controls-my-destiny/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/06/theres-no-mystical-energy-field-that-controls-my-destiny/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/06/theres-no-mystical-energy-field-that-controls-my-destiny/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/07/saving-the-world-with-meals-on-wheels/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/07/saving-the-world-with-meals-on-wheels/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/07/saving-the-world-with-meals-on-wheels/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/07/saving-the-world-with-meals-on-wheels/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/08/give-a-little-credit-to-our-public-schools/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/08/give-a-little-credit-to-our-public-schools/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/08/give-a-little-credit-to-our-public-schools/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/08/give-a-little-credit-to-our-public-schools/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/11/have-you-ever-tried-just-turning-off-the-tv/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/12/just-like-the-story-of-the-grasshopper-and-the-octopus/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/12/just-like-the-story-of-the-grasshopper-and-the-octopus/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/12/just-like-the-story-of-the-grasshopper-and-the-octopus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/12/just-like-the-story-of-the-grasshopper-and-the-octopus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/16/on-second-thoughts-lets-not-go-there/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/16/on-second-thoughts-lets-not-go-there/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/16/on-second-thoughts-lets-not-go-there/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/16/on-second-thoughts-lets-not-go-there/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/24/a-habit-that-will-immediately-improve-your-life/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/24/a-habit-that-will-immediately-improve-your-life/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/24/a-habit-that-will-immediately-improve-your-life/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/24/a-habit-that-will-immediately-improve-your-life/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/25/you-should-start-running-right-now/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/25/you-should-start-running-right-now/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/25/you-should-start-running-right-now/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/25/you-should-start-running-right-now/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/26/lessons-ive-learned-by-staying-positive/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/26/lessons-ive-learned-by-staying-positive/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/26/lessons-ive-learned-by-staying-positive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/26/lessons-ive-learned-by-staying-positive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/29/take-your-music-with-you-wherever-you-go/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/29/take-your-music-with-you-wherever-you-go/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/29/take-your-music-with-you-wherever-you-go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/29/take-your-music-with-you-wherever-you-go/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/29/why-do-people-think-clouds-are-so-interesting/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/29/why-do-people-think-clouds-are-so-interesting/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/01/29/why-do-people-think-clouds-are-so-interesting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/01/29/why-do-people-think-clouds-are-so-interesting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/02/when-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/02/when-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/02/when-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/02/when-you-do-things-right-people-wont-be-sure-youve-done-anything-at-all/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/05/something-that-ive-never-told-anyone-before/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/05/something-that-ive-never-told-anyone-before/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/05/something-that-ive-never-told-anyone-before/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/05/something-that-ive-never-told-anyone-before/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/07/this-man-is-a-knight-in-shining-armor/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/07/this-man-is-a-knight-in-shining-armor/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/07/this-man-is-a-knight-in-shining-armor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/07/this-man-is-a-knight-in-shining-armor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/08/finding-a-needle-in-a-haystack-isnt-hard/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/08/finding-a-needle-in-a-haystack-isnt-hard/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/08/finding-a-needle-in-a-haystack-isnt-hard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/08/finding-a-needle-in-a-haystack-isnt-hard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/09/theres-only-one-man-ive-ever-called-a-coward/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/11/are-you-suggesting-that-coconuts-migrate/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/11/are-you-suggesting-that-coconuts-migrate/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/11/are-you-suggesting-that-coconuts-migrate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/11/are-you-suggesting-that-coconuts-migrate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/12/now-leave-before-i-am-forced-to-taunt-you/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/18/knights-i-bid-you-welcome-to-your-new-home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/20/once-brewed-coffee-may-be-served-in-a-variety-of-ways/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/21/what-does-your-pet-really-think-about-you/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/21/what-does-your-pet-really-think-about-you/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/21/what-does-your-pet-really-think-about-you/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/21/what-does-your-pet-really-think-about-you/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/24/the-simplest-ways-to-choose-the-best-coffee/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/28/what-could-possibly-go-wrong/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/28/what-could-possibly-go-wrong/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/28/what-could-possibly-go-wrong/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/28/what-could-possibly-go-wrong/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/03/02/does-anybody-else-feel-jealous-and-worried/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2019/03/02/does-anybody-else-feel-jealous-and-worried/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/03/02/does-anybody-else-feel-jealous-and-worried/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2019/03/02/does-anybody-else-feel-jealous-and-worried/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/01/hello-world/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/01/hello-world/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/01/hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/01/hello-world/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/05/page/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/05/page/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/05/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/05/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/21/baidu-rot-validate/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/21/baidu-rot-validate/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/21/baidu-rot-validate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/21/baidu-rot-validate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/21/hello-world/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/21/hello-world/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/21/hello-world/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/21/hello-world/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/22/macos_wordpress/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/22/macos_wordpress/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/22/macos_wordpress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/22/macos_wordpress/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/28/page/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/28/page/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/28/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/28/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/06/02/latex_table/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/06/02/latex_table/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/06/02/latex_table/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/06/02/latex_table/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/07/04/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/07/04/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/07/04/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/07/04/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/07/04/normal-distribution/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/07/04/normal-distribution/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/07/04/normal-distribution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/07/04/normal-distribution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/08/27/counselling-for-toads-a-psychological-adventure/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2022/08/27/counselling-for-toads-a-psychological-adventure/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/08/27/counselling-for-toads-a-psychological-adventure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/2022/08/27/counselling-for-toads-a-psychological-adventure/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/tang/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/tang/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/tang/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/tang/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author/tang/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/author/tang/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks-wp-5-0-gutenberg/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blocks-wp-5-0-gutenberg/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/business/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/business/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/business/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/computer-vision/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/computer-vision/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/computer-vision/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/computer-vision/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/culture/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/culture/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/culture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/culture/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/humans/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/humans/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/humans/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/humans/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/math/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/math/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/math/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/politics/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/politics/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/politics/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/politics/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/reading/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/reading/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/reading/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/reading/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/technology/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/technology/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/technology/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/technology/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/uncategorized/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/uncategorized/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/uncategorized/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/uncategorized/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/writing/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/category/writing/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/category/writing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comments/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shortcodes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortcodes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styleguide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/material/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/material/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/material/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/material/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/medium/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/medium/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/medium/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/medium/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/noimages/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/noimages/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/noimages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/noimages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/noimages/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/noimages/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/noimages/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/noimages/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/paper/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/paper/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/paper/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/paper/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/stories/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/stories/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/stories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/stories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/stories/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/stories/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/stories/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/stories/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/text-based/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/text-based/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/text-based/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/text-based/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/typography/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/typography/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/typography/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/typography/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/writing/feed/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tag/writing/feed/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/writing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/writing/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/writing/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/writing/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag/writing/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag/writing/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-ads-widget/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-ads-widget/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-instagram-widget/css/widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-instagram-widget/css/widget.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-easy-social-share/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/simple-line-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/simple-line-icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/aim_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/aim_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/apple_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/apple_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/behance_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/behance_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/blogger_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/blogger_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/cargo_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/cargo_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/delicious_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/delicious_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/deviantart_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/deviantart_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/digg_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/digg_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/dribbble_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/dribbble_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/envato_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/envato_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/evernote_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/evernote_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/facebook_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/facebook_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/fh_px_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/fh_px_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/flickr_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/flickr_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/forrst_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/forrst_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/github_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/github_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/google_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/google_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/googleplus_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/googleplus_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/grooveshark_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/grooveshark_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/icloud_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/icloud_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/instagram_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/instagram_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/itunes_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/itunes_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/lastfm_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/lastfm_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/linkedin_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/linkedin_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/me2day_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/me2day_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/myspace_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/myspace_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/picasa_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/picasa_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/pinterest_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/pinterest_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/posterous_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/posterous_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/reddit_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/reddit_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/rss_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/rss_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/skype_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/skype_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/soundcloud_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/soundcloud_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/spotify_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/spotify_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/stumbleupon_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/stumbleupon_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tencent_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tencent_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tumblr_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tumblr_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitch_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitch_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitter_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitter_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vimeo_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vimeo_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vine_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vine_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vk_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vk_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/weibo_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/weibo_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/wordpress_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/wordpress_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/xing_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/xing_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/yahoo_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/yahoo_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/youtube_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/youtube_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/zerply_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/zerply_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-flexible-shortcodes/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-simple-flickr-widget/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-simple-flickr-widget/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-author-widget/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-author-widget/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/aim_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/aim_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/cargo_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/cargo_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/evernote_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/evernote_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/icloud_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/icloud_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/me2day_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/me2day_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/picasa_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/picasa_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/posterous_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/posterous_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/tencent_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-smart-social-widget/img/social_icons/tencent_ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/meks-themeforest-smart-widget/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/meks-themeforest-smart-widget/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/01/hello-world/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/01/hello-world/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/05/page/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/05/page/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/21/baidu-rot-validate/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/21/baidu-rot-validate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/22/macos_wordpress/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/05/22/macos_wordpress/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/06/02/latex_table/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/06/02/latex_table/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/07/04/normal-distribution/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/07/04/normal-distribution/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/08/27/counselling-for-toads-a-psychological-adventure/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/2022/08/27/counselling-for-toads-a-psychological-adventure/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/author/tang/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/author/tang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/computer-vision/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/computer-vision/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/math/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/math/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/reading/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/reading/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/technology/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/technology/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/uncategorized/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/uncategorized/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/writing/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/category/writing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/comments/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/feed/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-ads-widget/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-instagram-widget/css/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/fonts/socicon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-easy-social-share/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/aim_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/apple_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/behance_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/blogger_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/cargo_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/delicious_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/deviantart_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/digg_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/dribbble_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/envato_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/evernote_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/facebook_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/fh_px_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/flickr_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/forrst_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/github_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/google_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/googleplus_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/grooveshark_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/icloud_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/instagram_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/itunes_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/lastfm_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/linkedin_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/me2day_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/myspace_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/picasa_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/pinterest_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/posterous_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/reddit_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/rss_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/skype_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/soundcloud_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/spotify_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/stumbleupon_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tencent_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/tumblr_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitch_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/twitter_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vimeo_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vine_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/vk_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/weibo_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/wordpress_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/xing_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/yahoo_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/youtube_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/img/social_icons/zerply_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-flexible-shortcodes/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-simple-flickr-widget/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-author-widget/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/css/fonts/socicon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/aim_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/cargo_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/evernote_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/icloud_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/me2day_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/picasa_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/posterous_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-smart-social-widget/img/social_icons/tencent_ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/plugins/meks-themeforest-smart-widget/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology-child/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology-child/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology-child/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/css/min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/themes/typology/assets/js/min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/05/cropped-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/05/cropped-icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/05/cropped-icon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/05/kite-scaled.jpg&amp;quot;);" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/05/qtang_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1024x437.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1536x655.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-300x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-320x137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-580x247.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-720x307.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-768x328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1024x373.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1536x559.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-300x109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-320x116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-580x211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-720x262.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-768x280.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1024x426.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1536x640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-300x125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-320x133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-580x241.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-720x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-768x320.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-300x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-320x320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-580x580.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-720x720.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_-768x768.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-content/uploads/2022/08/7051661603094_.pic_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/css/dist/block-library/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/js/comment-reply.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/js/imagesloaded.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/js/jquery/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/js/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/simply-static/static-files/simply-static-1-1661603650/wp-includes/wlwmanifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/images/times-solid-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/images/times-solid-white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/mailcheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/mailcheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/punycode.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/punycode.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology-child/prism.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology-child/prism.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology-child/prism.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology-child/prism.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology-child/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/css/min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/css/min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/typology/assets/js/min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/typology/assets/js/min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-180x180.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/cropped-icon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/kite-scaled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/kite-scaled.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/kite-scaled.jpg&amp;quot;);" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/kite-scaled.jpg&amp;quot;);" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/05/qtang_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/05/qtang_header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1024x437.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1024x437.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1536x655.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-1536x655.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-300x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-300x128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-320x137.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-320x137.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-580x247.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-580x247.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-720x307.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-720x307.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-768x328.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08-768x328.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.08.08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1024x373.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1024x373.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1536x559.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-1536x559.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-300x109.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-300x109.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-320x116.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-320x116.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-580x211.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-580x211.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-720x262.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-720x262.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-768x280.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25-768x280.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-11.18.25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1024x426.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1024x426.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1536x640.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-1536x640.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-300x125.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-300x125.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-320x133.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-320x133.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-580x241.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-580x241.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-720x300.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-720x300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-768x320.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06-768x320.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/06/截屏2022-06-02-12.11.06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-300x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-300x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-320x320.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-320x320.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-580x580.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-580x580.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-720x720.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-720x720.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-768x768.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_-768x768.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/2022/08/7051661603094_.pic_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/css/dist/block-library/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/css/dist/block-library/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/comment-reply.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/comment-reply.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/imagesloaded.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/imagesloaded.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/jquery/jquery-migrate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/jquery/jquery-migrate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/wlwmanifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +466,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tq/Desktop/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tq/Desktop/VIP/meta/blog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -54,6 +496,7 @@
       <workItem from="1653141849462" duration="1108000" />
       <workItem from="1653150802756" duration="2338000" />
       <workItem from="1653194331075" duration="157000" />
+      <workItem from="1662797023644" duration="262000" />
     </task>
     <servers />
   </component>
